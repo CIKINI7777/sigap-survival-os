@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SIGAP - Survival OS</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="theme-color" content="#000000">
+</head>
+<body class="survival-mode">
+    <div id="hud-container">
+        <!-- Status Bar -->
+        <div id="status-bar">
+            🟢 SISTEM SIAGA | BATERAI: <span id="battery-level">--</span>%
+        </div>
+        
+        <!-- Area Kompas & Panah Arah -->
+        <div id="compass-ring">
+            <div id="direction-arrow"></div>
+            <div id="distance-label">0m ke Titik Kumpul</div>
+        </div>
+
+        <!-- Tombol Aksi Darurat -->
+        <div id="action-buttons">
+            <button id="btn-scan-qr" aria-label="Scan Landmark">📷 SCAN</button>
+            <button id="btn-flashlight" aria-label="Senter Darurat">🔦</button>
+            <button id="btn-mesh-chat" aria-label="Chat Mesh">💬 MESH</button>
+        </div>
+
+        <!-- Indikator Suara Panduan -->
+        <div id="voice-indicator">🔊 Menunggu perintah...</div>
+    </div>
+
+    <!-- Load Script Navigasi -->
+    <script src="/js/navigator.js"></script>
+</body>
+</html>
