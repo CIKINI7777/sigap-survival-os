@@ -1,0 +1,14 @@
+[
+  {
+    "id": "QR_GATE_UTAMA",
+    "zone": "Gerbang Masuk",
+    "bearingToAssembly": 90,
+    "distance": 150
+  },
+  {
+    "id": "QR_WORKSHOP_A",
+    "zone": "Workshop A",
+    "bearingToAssembly": 180,
+    "distance": 80
+  }
+]
